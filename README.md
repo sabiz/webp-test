@@ -11,3 +11,7 @@ ffmpeg.exe -i wolf-27400.mp4 -s 426x240  out.webp
 ```
 ffmpeg.exe -i wolf-27400.mp4 -s 426x240  -r 15  out_frame.webp
 ```
+
+```
+ffmpeg.exe -i wolf-27400.mp4 -s 426x240  -r 15 -loop 0  out_loop.webp
+```
